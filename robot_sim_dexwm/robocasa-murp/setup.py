@@ -32,7 +32,7 @@ setup(
         "lxml",
         "hidapi",
         "tianshou==0.4.10",
-        "torch==2.6.0",
+        "torch==2.8.0",
         "transformers==4.51.3",
         "torchao",
         "timm",
