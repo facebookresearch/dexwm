@@ -33,7 +33,7 @@ setup(
         "hidapi",
         "tianshou==0.4.10",
         "torch==2.6.0",
-        "transformers==4.51.3",
+        "transformers==4.53.0",
         "torchao",
         "timm",
         "accelerate",
