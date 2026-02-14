@@ -1,0 +1,380 @@
+{
+    "all": [
+        "apple",
+        "banana",
+        "bar",
+        "bar_soap",
+        "can",
+        "carrot",
+        "cereal",
+        "chocolate",
+        "coffee_cup",
+        "condiment_bottle",
+        "donut",
+        "garlic",
+        "lemon",
+        "mushroom",
+        "onion",
+        "orange",
+        "pot",
+        "plate",
+        "spoon",
+        "spray",
+        "syrup_bottle",
+        "dumpling",
+        "spaghetti_box",
+        "chili_pepper",
+        "chicken_breast",
+        "lamb_chop",
+        "pomegranate",
+        "vinegar",
+        "sausage",
+        "salami",
+        "pineapple"
+    ],
+    "liquor": [],
+    "apple": [
+        "apple"
+    ],
+    "avocado": [],
+    "bagel": [],
+    "bagged_food": [],
+    "baguette": [],
+    "banana": [
+        "banana"
+    ],
+    "bar": [
+        "bar"
+    ],
+    "bar_soap": [
+        "bar_soap"
+    ],
+    "beer": [],
+    "bell_pepper": [],
+    "bottled_drink": [],
+    "bottled_water": [],
+    "bowl": [],
+    "boxed_drink": [],
+    "boxed_food": [],
+    "bread": [],
+    "broccoli": [],
+    "cake": [],
+    "can": [
+        "can"
+    ],
+    "candle": [],
+    "canned_food": [],
+    "carrot": [
+        "carrot"
+    ],
+    "cereal": [
+        "cereal"
+    ],
+    "cheese": [],
+    "chips": [],
+    "chocolate": [
+        "chocolate"
+    ],
+    "coffee_cup": [
+        "coffee_cup"
+    ],
+    "condiment_bottle": [
+        "condiment_bottle"
+    ],
+    "corn": [],
+    "croissant": [],
+    "cucumber": [],
+    "cup": [],
+    "cupcake": [],
+    "cutting_board": [],
+    "donut": [
+        "donut"
+    ],
+    "egg": [],
+    "eggplant": [],
+    "fish": [],
+    "fork": [],
+    "garlic": [
+        "garlic"
+    ],
+    "hot_dog": [],
+    "jam": [],
+    "jug": [],
+    "ketchup": [],
+    "kettle_electric": [],
+    "kettle_non_electric": [],
+    "kiwi": [],
+    "knife": [],
+    "ladle": [],
+    "lemon": [
+        "lemon"
+    ],
+    "lime": [],
+    "mango": [],
+    "milk": [],
+    "mug": [],
+    "mushroom": [
+        "mushroom"
+    ],
+    "onion": [
+        "onion"
+    ],
+    "orange": [
+        "orange"
+    ],
+    "pan": [],
+    "pot": [
+        "pot"
+    ],
+    "peach": [],
+    "pear": [],
+    "plate": [
+        "plate"
+    ],
+    "potato": [],
+    "rolling_pin": [],
+    "scissors": [],
+    "shaker": [],
+    "soap_dispenser": [],
+    "spatula": [],
+    "sponge": [],
+    "spoon": [
+        "spoon"
+    ],
+    "spray": [
+        "spray"
+    ],
+    "squash": [],
+    "steak": [],
+    "sweet_potato": [],
+    "tangerine": [],
+    "teapot": [],
+    "tomato": [],
+    "tray": [],
+    "waffle": [],
+    "water_bottle": [],
+    "wine": [],
+    "yogurt": [],
+    "dates": [],
+    "lemonade": [],
+    "walnut": [],
+    "cheese_grater": [],
+    "syrup_bottle": [
+        "syrup_bottle"
+    ],
+    "scallops": [],
+    "candy": [],
+    "whisk": [],
+    "pitcher": [],
+    "ice_cream": [],
+    "cherry": [],
+    "peanut_butter": [],
+    "thermos": [],
+    "ham": [],
+    "dumpling": [
+        "dumpling"
+    ],
+    "cabbage": [],
+    "lettuce": [],
+    "tongs": [],
+    "ginger": [],
+    "ice_cube_tray": [],
+    "shrimp": [],
+    "cantaloupe": [],
+    "honey_bottle": [],
+    "grapes": [],
+    "spaghetti_box": [
+        "spaghetti_box"
+    ],
+    "chili_pepper": [
+        "chili_pepper"
+    ],
+    "celery": [],
+    "burrito": [],
+    "olive_oil_bottle": [],
+    "kebabs": [],
+    "bottle_opener": [],
+    "chicken_breast": [
+        "chicken_breast"
+    ],
+    "jello_cup": [],
+    "lobster": [],
+    "brussel_sprout": [],
+    "sushi": [],
+    "baking_sheet": [],
+    "wine_glass": [],
+    "asparagus": [],
+    "lamb_chop": [
+        "lamb_chop"
+    ],
+    "pickle": [],
+    "bacon": [],
+    "canola_oil": [],
+    "strawberry": [],
+    "watermelon": [],
+    "pizza_cutter": [],
+    "pomegranate": [
+        "pomegranate"
+    ],
+    "apricot": [],
+    "beet": [],
+    "radish": [],
+    "salsa": [],
+    "artichoke": [],
+    "scone": [],
+    "hamburger": [],
+    "raspberry": [],
+    "tacos": [],
+    "vinegar": [
+        "vinegar"
+    ],
+    "zucchini": [],
+    "pork_loin": [],
+    "pork_chop": [],
+    "sausage": [
+        "sausage"
+    ],
+    "coconut": [],
+    "cauliflower": [],
+    "lollipop": [],
+    "salami": [
+        "salami"
+    ],
+    "butter_stick": [],
+    "can_opener": [],
+    "tofu": [],
+    "pineapple": [
+        "pineapple"
+    ],
+    "skewers": [],
+    "packaged_food": [
+        "bar",
+        "cereal",
+        "spaghetti_box",
+        "vinegar"
+    ],
+    "dairy": [],
+    "receptacle": [
+        "pot",
+        "plate"
+    ],
+    "stackable": [],
+    "sweets": [
+        "chocolate",
+        "donut"
+    ],
+    "utensil": [
+        "spoon"
+    ],
+    "drink": [
+        "can",
+        "coffee_cup"
+    ],
+    "alcohol": [],
+    "tool": [],
+    "bread_food": [],
+    "cooked_food": [
+        "dumpling"
+    ],
+    "cleaner": [
+        "bar_soap",
+        "spray"
+    ],
+    "fruit": [
+        "apple",
+        "banana",
+        "orange",
+        "pomegranate",
+        "pineapple"
+    ],
+    "pastry": [
+        "donut"
+    ],
+    "meat": [
+        "dumpling",
+        "chicken_breast",
+        "lamb_chop",
+        "sausage",
+        "salami"
+    ],
+    "vegetable": [
+        "carrot",
+        "garlic",
+        "lemon",
+        "mushroom",
+        "onion",
+        "chili_pepper"
+    ],
+    "decoration": [],
+    "condiment": [
+        "condiment_bottle",
+        "syrup_bottle",
+        "vinegar"
+    ],
+    "food": [
+        "apple",
+        "banana",
+        "carrot",
+        "chocolate",
+        "donut",
+        "garlic",
+        "lemon",
+        "mushroom",
+        "onion",
+        "orange",
+        "dumpling",
+        "chili_pepper",
+        "chicken_breast",
+        "lamb_chop",
+        "pomegranate",
+        "sausage",
+        "salami",
+        "pineapple"
+    ],
+    "in_container": [
+        "apple",
+        "banana",
+        "carrot",
+        "chocolate",
+        "donut",
+        "garlic",
+        "lemon",
+        "mushroom",
+        "onion",
+        "orange",
+        "dumpling",
+        "chili_pepper",
+        "chicken_breast",
+        "lamb_chop",
+        "pomegranate",
+        "sausage",
+        "salami",
+        "pineapple"
+    ],
+    "container": [
+        "plate"
+    ],
+    "kettle": [],
+    "cookware": [
+        "pot"
+    ],
+    "pots_and_pans": [
+        "pot"
+    ],
+    "food_set1": [
+        "apple",
+        "banana",
+        "carrot",
+        "lemon",
+        "orange"
+    ],
+    "group1": [
+        "apple",
+        "carrot",
+        "banana",
+        "can"
+    ],
+    "container_set2": [
+        "plate"
+    ]
+}

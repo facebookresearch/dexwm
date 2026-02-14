@@ -1,0 +1,43 @@
+dataset: egodex
+model:
+  backbone_name: dinov2 # dinov2, dinov3_large, vjepa2_vitg_256, siglip2_so400m_patch14_384, webssl_vitl
+  hidden_dim: 1024
+  action_dim: 132
+  depth: 32
+  num_heads: 16
+  mlp_ratio: 2.0
+  do_compile: True
+  heatmap_layers: 12
+  heatmap_dim: 512
+data:
+  root_folder: /checkpoint/amaia/video/raktimgg/egodex
+  max_context_len: 120
+  num_context: 8
+  img_size: 224
+  aug: True
+  keys: all
+  var_time: True
+train:
+  global_seed: 0
+  batch_size: 16
+  num_workers: 12
+  epochs: 40
+  optim:
+    lr: 1e-3
+    lr_decoder: 1e-4
+    weight_decay: 1e-5
+  scheduler:
+    final_div_factor: 1e3
+    max_lr: 1e-4
+    decoder_final_div_factor: 1e3
+    decoder_max_lr: 1e-4
+  do_eval: True
+  eval_freq: 100
+  kp_weight: 100
+  resume: null
+  save_name: egodex
+wandb:
+  do_wandb: False
+  project: dexwm
+  entity: dexwm
+  name: egodex

@@ -1,0 +1,458 @@
+{
+    "dumpling": {
+        "aigen": {
+            "scale": 1.15
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": [
+            "meat",
+            "cooked_food"
+        ]
+    },
+    "lamb_chop": {
+        "aigen": {
+            "scale": 1.15
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "coffee_cup": {
+        "types": "drink",
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "exclude": [
+                "coffee_cup_18",
+                "coffee_cup_5",
+                "coffee_cup_19"
+            ]
+        }
+    },
+    "can": {
+        "types": "drink",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {},
+        "objaverse": {
+            "exclude": [
+                "can_10",
+                "can_5"
+            ]
+        }
+    },
+    "salami": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "syrup_bottle": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "condiment"
+    },
+    "sausage": {
+        "aigen": {
+            "scale": 1.45
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "garlic": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.3
+        },
+        "objaverse": {
+            "scale": 1.1,
+            "exclude": [
+                "garlic_3"
+            ]
+        }
+    },
+    "apple": {
+        "types": "fruit",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.0
+        },
+        "objaverse": {
+            "scale": 0.9
+        }
+    },
+    "spray": {
+        "types": "cleaner",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.75
+        },
+        "objaverse": {
+            "scale": 1.75
+        }
+    },
+    "chicken_breast": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "onion": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.1
+        },
+        "objaverse": {}
+    },
+    "spaghetti_box": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "packaged_food"
+    },
+    "lemon": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.1
+        },
+        "objaverse": {}
+    },
+    "pineapple": {
+        "aigen": {
+            "scale": 2.0
+        },
+        "objaverse": {
+            "exclude": [
+                "pineapple_6"
+            ]
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "fruit"
+    },
+    "pomegranate": {
+        "aigen": {
+            "scale": 1.25
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "fruit"
+    },
+    "pot": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 2.25
+        },
+        "objaverse": {
+            "model_folders": [
+                "objaverse/pan"
+            ],
+            "scale": 1.7,
+            "exclude": [
+                "pan_19",
+                "pan_7",
+                "pan_23",
+                "pan_3",
+                "pan_1",
+                "pan_20",
+                "pan_24",
+                "pan_6",
+                "pan_14",
+                "pan_5",
+                "pan_13",
+                "pan_10",
+                "pan_16",
+                "pan_18",
+                "pan_4",
+                "pan_21",
+                "pan_11",
+                "pan_9",
+                "pan_2",
+                "pan_15",
+                "pan_8"
+            ]
+        }
+    },
+    "mushroom": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "scale": 1.2,
+            "exclude": []
+        }
+    },
+    "cereal": {
+        "types": "packaged_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.15
+        },
+        "objaverse": {}
+    },
+    "bar": {
+        "types": "packaged_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.75
+        },
+        "objaverse": {
+            "scale": 1.2,
+            "exclude": [
+                "bar_1"
+            ]
+        }
+    },
+    "bar_soap": {
+        "types": "cleaner",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.4
+        },
+        "objaverse": {
+            "scale": 1.05,
+            "exclude": [
+                "bar_soap_2"
+            ]
+        }
+    },
+    "chili_pepper": {
+        "aigen": {
+            "scale": 1.1
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "carrot": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.25
+        },
+        "objaverse": {}
+    },
+    "vinegar": {
+        "aigen": {
+            "scale": 1.4
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": [
+            "packaged_food",
+            "condiment"
+        ]
+    },
+    "chocolate": {
+        "types": "sweets",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "scale": 1.2,
+            "exclude": []
+        }
+    },
+    "donut": {
+        "types": [
+            "sweets",
+            "pastry"
+        ],
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.5
+        },
+        "objaverse": {
+            "scale": 1.15
+        }
+    },
+    "orange": {
+        "types": "fruit",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.05
+        },
+        "objaverse": {
+            "exclude": []
+        }
+    },
+    "plate": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.65
+        },
+        "objaverse": {
+            "scale": 1.35,
+            "exclude": [
+                "plate_6"
+            ]
+        }
+    },
+    "spoon": {
+        "types": "utensil",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.5
+        },
+        "objaverse": {}
+    },
+    "banana": {
+        "types": "fruit",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.1
+        },
+        "objaverse": {
+            "scale": 1.55
+        }
+    },
+    "condiment_bottle": {
+        "types": "condiment",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.35,
+            "model_folders": [
+                "aigen_objs/condiment"
+            ]
+        },
+        "objaverse": {
+            "scale": 1.05,
+            "model_folders": [
+                "objaverse/condiment"
+            ]
+        }
+    }
+}

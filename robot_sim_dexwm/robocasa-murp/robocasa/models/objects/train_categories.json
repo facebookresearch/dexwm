@@ -1,0 +1,1677 @@
+{
+    "hamburger": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "types": "cooked_food"
+    },
+    "beet": {
+        "aigen": {},
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": false,
+        "types": "vegetable"
+    },
+    "butter_stick": {
+        "aigen": {
+            "scale": 1.3
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "dairy"
+    },
+    "fork": {
+        "types": "utensil",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.75
+        },
+        "objaverse": {}
+    },
+    "soap_dispenser": {
+        "types": "cleaner",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.7
+        },
+        "objaverse": {
+            "exclude": []
+        }
+    },
+    "ladle": {
+        "types": "utensil",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.5
+        },
+        "objaverse": {
+            "scale": 1.1
+        }
+    },
+    "pickle": {
+        "aigen": {
+            "scale": 1.0
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "coconut": {
+        "aigen": {
+            "scale": 2.0
+        },
+        "objaverse": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "types": "fruit"
+    },
+    "tongs": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "tool"
+    },
+    "sponge": {
+        "types": "cleaner",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.2
+        },
+        "objaverse": {
+            "scale": 0.9
+        }
+    },
+    "can_opener": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "tool"
+    },
+    "cake": {
+        "types": "sweets",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 0.8
+        },
+        "objaverse": {
+            "scale": 0.8
+        }
+    },
+    "apricot": {
+        "aigen": {
+            "scale": 0.7
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "fruit"
+    },
+    "baking_sheet": {
+        "aigen": {
+            "scale": 1.75
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "receptacle"
+    },
+    "ham": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "liquor": {
+        "types": [
+            "drink",
+            "alcohol"
+        ],
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "model_folders": [
+                "aigen_objs/alcohol"
+            ],
+            "scale": 1.0
+        },
+        "objaverse": {
+            "model_folders": [
+                "objaverse/alcohol"
+            ],
+            "scale": 1.0
+        }
+    },
+    "radish": {
+        "aigen": {
+            "scale": 1.0
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "vegetable"
+    },
+    "jam": {
+        "types": "packaged_food",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.05
+        },
+        "objaverse": {
+            "scale": 0.9
+        }
+    },
+    "squash": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.15
+        },
+        "objaverse": {
+            "exclude": [
+                "squash_10"
+            ]
+        }
+    },
+    "croissant": {
+        "types": "pastry",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 0.9
+        },
+        "objaverse": {
+            "scale": 0.9
+        }
+    },
+    "scallops": {
+        "aigen": {
+            "scale": 1.25
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "avocado": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 0.9
+        },
+        "objaverse": {
+            "scale": 0.9
+        }
+    },
+    "canola_oil": {
+        "aigen": {
+            "scale": 1.75
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "packaged_food"
+    },
+    "mug": {
+        "types": [
+            "receptacle",
+            "stackable"
+        ],
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.3
+        },
+        "objaverse": {}
+    },
+    "teapot": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.25
+        },
+        "objaverse": {
+            "scale": 1.25,
+            "exclude": [
+                "teapot_9"
+            ]
+        }
+    },
+    "fish": {
+        "types": "meat",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 2.0
+        },
+        "objaverse": {
+            "scale": 1.5
+        }
+    },
+    "asparagus": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "cauliflower": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "pear": {
+        "types": "fruit",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {},
+        "objaverse": {
+            "exclude": [
+                "pear_4"
+            ]
+        }
+    },
+    "kebabs": {
+        "aigen": {
+            "scale": 1.65
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "cooked_food"
+    },
+    "rolling_pin": {
+        "types": "tool",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.6
+        },
+        "objaverse": {
+            "scale": 1.25,
+            "exclude": []
+        }
+    },
+    "bagel": {
+        "types": "bread_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.2
+        },
+        "objaverse": {
+            "exclude": [
+                "bagel_8"
+            ]
+        }
+    },
+    "peanut_butter": {
+        "aigen": {
+            "scale": 1.25,
+            "model_folders": [
+                "aigen_objs/peanut_butter_jar"
+            ]
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "packaged_food"
+    },
+    "mango": {
+        "types": "fruit",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.0
+        },
+        "objaverse": {
+            "scale": 0.85,
+            "exclude": [
+                "mango_3"
+            ]
+        }
+    },
+    "cup": {
+        "types": [
+            "receptacle",
+            "stackable"
+        ],
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {}
+    },
+    "dates": {
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "fruit",
+        "aigen": {
+            "scale": 1.5
+        }
+    },
+    "boxed_drink": {
+        "types": "drink",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.1
+        },
+        "objaverse": {
+            "scale": 0.8,
+            "exclude": [
+                "boxed_drink_9",
+                "boxed_drink_6",
+                "boxed_drink_8"
+            ]
+        }
+    },
+    "zucchini": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "potato": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.1
+        },
+        "objaverse": {}
+    },
+    "scone": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": [
+            "pastry",
+            "bread_food"
+        ]
+    },
+    "bacon": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": false,
+        "types": "meat"
+    },
+    "pitcher": {
+        "aigen": {
+            "scale": 1.75
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "types": "receptacle"
+    },
+    "celery": {
+        "aigen": {
+            "scale": 2.0
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "olive_oil_bottle": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "packaged_food"
+    },
+    "cheese_grater": {
+        "aigen": {
+            "scale": 2.15
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "tool"
+    },
+    "grapes": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "fruit"
+    },
+    "thermos": {
+        "aigen": {
+            "scale": 1.75
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": true,
+        "types": "drink"
+    },
+    "bread": {
+        "types": "bread_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.0
+        },
+        "objaverse": {
+            "scale": 1.0,
+            "exclude": [
+                "bread_22"
+            ]
+        }
+    },
+    "bottle_opener": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "tool"
+    },
+    "shaker": {
+        "types": "condiment",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.25
+        },
+        "objaverse": {}
+    },
+    "milk": {
+        "types": [
+            "dairy",
+            "drink"
+        ],
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "exclude": [
+                "milk_6"
+            ]
+        }
+    },
+    "chips": {
+        "types": "packaged_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.5
+        },
+        "objaverse": {
+            "exclude": [
+                "chips_12"
+            ]
+        }
+    },
+    "sweet_potato": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {},
+        "objaverse": {}
+    },
+    "tangerine": {
+        "types": "fruit",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {},
+        "objaverse": {}
+    },
+    "peach": {
+        "types": "fruit",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.05
+        },
+        "objaverse": {}
+    },
+    "cabbage": {
+        "aigen": {
+            "scale": 2.0
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "ginger": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "salsa": {
+        "aigen": {
+            "scale": 1.15
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "packaged_food"
+    },
+    "egg": {
+        "types": "dairy",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.15
+        },
+        "objaverse": {
+            "scale": 0.85
+        }
+    },
+    "walnut": {
+        "aigen": {
+            "scale": 1.15
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": []
+    },
+    "wine_glass": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": true,
+        "types": "receptacle"
+    },
+    "scissors": {
+        "types": "tool",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "scale": 1.15
+        }
+    },
+    "broccoli": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "scale": 1.25,
+            "exclude": [
+                "broccoli_2"
+            ]
+        }
+    },
+    "lime": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": true,
+        "objaverse": {
+            "scale": 1.0
+        },
+        "aigen": {
+            "scale": 0.9
+        }
+    },
+    "raspberry": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "fruit"
+    },
+    "bagged_food": {
+        "types": "packaged_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.1
+        },
+        "objaverse": {
+            "exclude": [
+                "bagged_food_12"
+            ]
+        }
+    },
+    "candy": {
+        "aigen": {},
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "sweets"
+    },
+    "pork_loin": {
+        "aigen": {},
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "hot_dog": {
+        "types": "cooked_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.4
+        },
+        "objaverse": {}
+    },
+    "skewers": {
+        "aigen": {
+            "scale": 1.75
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": false,
+        "types": [
+            "meat",
+            "cooked_food"
+        ]
+    },
+    "tray": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 2.0
+        },
+        "objaverse": {
+            "scale": 1.8
+        }
+    },
+    "watermelon": {
+        "aigen": {
+            "scale": 2.5
+        },
+        "objaverse": {
+            "scale": 0.75
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "fruit"
+    },
+    "tacos": {
+        "aigen": {
+            "scale": 1.0
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "types": "cooked_food"
+    },
+    "yogurt": {
+        "types": [
+            "dairy",
+            "packaged_food"
+        ],
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.0
+        },
+        "objaverse": {
+            "scale": 0.95
+        }
+    },
+    "cucumber": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.1
+        },
+        "objaverse": {}
+    },
+    "artichoke": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": false,
+        "types": "vegetable"
+    },
+    "canned_food": {
+        "types": "packaged_food",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.15
+        },
+        "objaverse": {
+            "scale": 0.9,
+            "exclude": [
+                "canned_food_7"
+            ]
+        }
+    },
+    "beer": {
+        "types": [
+            "drink",
+            "alcohol"
+        ],
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.3
+        },
+        "objaverse": {
+            "scale": 1.15
+        }
+    },
+    "cutting_board": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 2.0
+        },
+        "objaverse": {
+            "scale": 1.35,
+            "exclude": [
+                "cutting_board_14",
+                "cutting_board_3",
+                "cutting_board_10",
+                "cutting_board_6"
+            ]
+        }
+    },
+    "lollipop": {
+        "aigen": {
+            "scale": 2.0
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "sweets"
+    },
+    "lobster": {
+        "aigen": {
+            "scale": 1.15
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "kiwi": {
+        "types": "fruit",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 0.9
+        },
+        "objaverse": {
+            "scale": 0.9
+        }
+    },
+    "candle": {
+        "types": "decoration",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.5
+        },
+        "objaverse": {
+            "exclude": [
+                "candle_11"
+            ]
+        }
+    },
+    "lettuce": {
+        "aigen": {
+            "scale": 2.0
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "wine": {
+        "types": [
+            "drink",
+            "alcohol"
+        ],
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.9
+        },
+        "objaverse": {
+            "scale": 1.6,
+            "exclude": [
+                "wine_7"
+            ]
+        }
+    },
+    "jello_cup": {
+        "aigen": {
+            "scale": 1.15
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "packaged_food"
+    },
+    "strawberry": {
+        "aigen": {
+            "scale": 0.9
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "fruit"
+    },
+    "honey_bottle": {
+        "aigen": {
+            "scale": 1.1
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "packaged_food"
+    },
+    "brussel_sprout": {
+        "aigen": {},
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "vegetable"
+    },
+    "ice_cream": {
+        "aigen": {
+            "scale": 1.25
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "sweets"
+    },
+    "cantaloupe": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "fruit"
+    },
+    "ice_cube_tray": {
+        "aigen": {
+            "scale": 2.0
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "receptacle"
+    },
+    "corn": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.5
+        },
+        "objaverse": {
+            "scale": 1.05
+        }
+    },
+    "lemonade": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "objaverse": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "drink"
+    },
+    "burrito": {
+        "aigen": {
+            "scale": 1.35
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": true,
+        "types": "cooked_food"
+    },
+    "pork_chop": {
+        "aigen": {
+            "scale": 1.25
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "whisk": {
+        "aigen": {
+            "scale": 1.8
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "utensil"
+    },
+    "cheese": {
+        "types": "dairy",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.0
+        },
+        "objaverse": {
+            "scale": 0.85
+        }
+    },
+    "steak": {
+        "types": "meat",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 2.0
+        },
+        "objaverse": {
+            "scale": 2.0,
+            "exclude": [
+                "steak_13",
+                "steak_1"
+            ]
+        }
+    },
+    "kettle_non_electric": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "objaverse": {
+            "scale": 1.35,
+            "model_folders": [
+                "objaverse/kettle"
+            ],
+            "exclude": [
+                "kettle_0",
+                "kettle_7",
+                "kettle_9",
+                "kettle_12",
+                "kettle_13",
+                "kettle_17",
+                "kettle_24",
+                "kettle_25",
+                "kettle_26",
+                "kettle_27"
+            ]
+        },
+        "aigen": {
+            "scale": 1.5,
+            "model_folders": [
+                "aigen_objs/kettle"
+            ],
+            "exclude": [
+                "kettle_0",
+                "kettle_2",
+                "kettle_6",
+                "kettle_9",
+                "kettle_10"
+            ]
+        }
+    },
+    "waffle": {
+        "types": "sweets",
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.75
+        },
+        "objaverse": {
+            "exclude": [
+                "waffle_2"
+            ]
+        }
+    },
+    "water_bottle": {
+        "types": "drink",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.6
+        },
+        "objaverse": {
+            "scale": 1.5,
+            "exclude": [
+                "water_bottle_11"
+            ]
+        }
+    },
+    "eggplant": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.3
+        },
+        "objaverse": {
+            "scale": 0.95
+        }
+    },
+    "tofu": {
+        "aigen": {},
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": true,
+        "types": []
+    },
+    "bell_pepper": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.0
+        },
+        "objaverse": {
+            "scale": 0.75
+        }
+    },
+    "sushi": {
+        "aigen": {
+            "scale": 0.9
+        },
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "meat"
+    },
+    "boxed_food": {
+        "types": "packaged_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.25
+        },
+        "objaverse": {
+            "scale": 1.1,
+            "exclude": [
+                "boxed_food_5"
+            ]
+        }
+    },
+    "spatula": {
+        "types": "utensil",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": true,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.3
+        },
+        "objaverse": {
+            "scale": 1.1
+        }
+    },
+    "pan": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 2.25
+        },
+        "objaverse": {
+            "scale": 1.7,
+            "exclude": [
+                "pan_16",
+                "pan_0",
+                "pan_12",
+                "pan_17",
+                "pan_22"
+            ]
+        }
+    },
+    "cherry": {
+        "aigen": {},
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "types": "fruit"
+    },
+    "baguette": {
+        "types": "bread_food",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "exclude": [
+                "baguette_3"
+            ]
+        }
+    },
+    "shrimp": {
+        "aigen": {
+            "scale": 1.5
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": true,
+        "types": "meat"
+    },
+    "cupcake": {
+        "types": "sweets",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 0.9
+        },
+        "objaverse": {
+            "exclude": [
+                "cupcake_0",
+                "cupcake_10",
+                "cupcake_1"
+            ]
+        }
+    },
+    "tomato": {
+        "types": "vegetable",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.25
+        },
+        "objaverse": {}
+    },
+    "ketchup": {
+        "types": "condiment",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "exclude": [
+                "ketchup_5"
+            ]
+        }
+    },
+    "pizza_cutter": {
+        "aigen": {
+            "scale": 2.0
+        },
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "types": "tool"
+    },
+    "kettle_electric": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": false,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "objaverse": {
+            "scale": 1.35,
+            "model_folders": [
+                "objaverse/kettle"
+            ],
+            "exclude": [
+                "kettle_1",
+                "kettle_2",
+                "kettle_3",
+                "kettle_4",
+                "kettle_5",
+                "kettle_6",
+                "kettle_8",
+                "kettle_10",
+                "kettle_11",
+                "kettle_14",
+                "kettle_15",
+                "kettle_16",
+                "kettle_18",
+                "kettle_19",
+                "kettle_20",
+                "kettle_21",
+                "kettle_22",
+                "kettle_23",
+                "kettle_28"
+            ]
+        },
+        "aigen": {
+            "scale": 1.5,
+            "model_folders": [
+                "aigen_objs/kettle"
+            ],
+            "exclude": [
+                "kettle_1",
+                "kettle_3",
+                "kettle_4",
+                "kettle_5",
+                "kettle_7",
+                "kettle_8"
+            ]
+        }
+    },
+    "bottled_water": {
+        "types": "drink",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.3
+        },
+        "objaverse": {
+            "scale": 1.1,
+            "exclude": [
+                "bottled_water_0",
+                "bottled_water_5"
+            ]
+        }
+    },
+    "knife": {
+        "types": "utensil",
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": true,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.35
+        },
+        "objaverse": {
+            "scale": 1.2
+        }
+    },
+    "bottled_drink": {
+        "types": "drink",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": true,
+        "aigen": {
+            "scale": 1.25
+        },
+        "objaverse": {}
+    },
+    "bowl": {
+        "types": [
+            "receptacle",
+            "stackable"
+        ],
+        "graspable": true,
+        "washable": true,
+        "microwavable": true,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.75
+        },
+        "objaverse": {
+            "scale": 2.0,
+            "exclude": [
+                "bowl_21"
+            ]
+        }
+    },
+    "jug": {
+        "types": "receptacle",
+        "graspable": true,
+        "washable": true,
+        "microwavable": false,
+        "cookable": false,
+        "freezable": false,
+        "aigen": {
+            "scale": 1.5
+        },
+        "objaverse": {
+            "scale": 1.5
+        }
+    }
+}

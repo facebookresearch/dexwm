@@ -1,0 +1,40 @@
+dataset: robocasa_random
+model:
+  backbone_name: dinov2 # dinov2, dinov3_large, vjepa2_vitg_256, siglip2_so400m_patch14_384, webssl_vitl
+  hidden_dim: 1024
+  action_dim: 132
+  depth: 32
+  num_heads: 16
+  mlp_ratio: 2.0
+  do_compile: True
+data:
+  root_folder: /checkpoint/amaia/video/raktimgg/transfer/split_files/split_files/random_movements
+  max_context_len: 80
+  num_context: 8
+  img_size: 224
+  aug: False
+  full_seq: True
+train:
+  global_seed: 0
+  batch_size: 8
+  num_workers: 12
+  epochs: 20
+  optim:
+    lr: 1e-3
+    lr_decoder: 1e-4
+    weight_decay: 1e-5
+  scheduler:
+    final_div_factor: 1
+    max_lr: 1e-5
+    decoder_final_div_factor: 1e3
+    decoder_max_lr: 1e-4
+  do_eval: True
+  eval_freq: 100
+  kp_weight: 100
+  resume: /checkpoint/amaia/video/raktimgg/HOWM/experiments/egodex_and_droid_heatmap_loss_aug_weight100_no_flip_var_time2/checkpoints/egodex_and_droid_heatmap_loss_weight100_39.pth.tar
+  save_name: robocasa_random_multistep
+wandb:
+  do_wandb: False
+  project: dexwm
+  entity: dexwm
+  name: robocasa_random_multistep
