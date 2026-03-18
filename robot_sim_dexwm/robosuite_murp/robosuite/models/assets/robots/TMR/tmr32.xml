@@ -1,0 +1,140 @@
+<mujoco model="murp">
+  <compiler angle="radian"/>
+
+  <asset>
+    <mesh name="torso" file="meshes/TMR/torso.stl"/>
+    <mesh name="link0" file="meshes/TMR/link0.stl"/>
+    <mesh name="link1" file="meshes/TMR/link1.stl"/>
+    <mesh name="link2" file="meshes/TMR/link2.stl"/>
+    <mesh name="link3" file="meshes/TMR/link3.stl"/>
+    <mesh name="link4" file="meshes/TMR/link4.stl"/>
+    <mesh name="link5" file="meshes/TMR/link5.stl"/>
+    <mesh name="link6" file="meshes/TMR/link6.stl"/>
+    <mesh name="link7" file="meshes/TMR/link7.stl"/>
+    <mesh name="tmr_base" file="meshes/TMR/tmr_base.stl"/>
+    <mesh name="caster" file="meshes/TMR/caster.stl"/>
+    <mesh name="wheel" file="meshes/TMR/wheel.stl"/>
+  </asset>
+
+  <worldbody>
+    <body name="base">
+      <body name="fixed_base_link">
+        <geom pos="0 0 0" quat="1 0 0 0" type="mesh" mesh="tmr_base"/>
+        <body name="torso">
+          <geom pos="0.212 0 0.294" quat="1 0 0 0" type="mesh" group="1" rgba="1 1 1 1" mesh="torso"/>
+            <camera name="robotview" pos="0.212 0 1.014" quat="-0.5 -0.5 0.5 0.5 " fovy="80" resolution="480 300"/>
+            <camera name="robotview_2" pos="0.212 0 1.614" quat="0.61237244 0.35355339 -0.35355339 -0.61237244" fovy="80" resolution="480 300"/>       
+         
+          <site name="center" pos="0 0 0" size="0.01" group="2" rgba="1 0.3 0.3 1"/>
+          
+          <!-- <body name="left_arm_mount" pos="0 0 0" quat="0.865807 -0.436878 0.0222879 -0.242939"> -->
+          <body name="right_fr3_link0" pos="0.247 -0.050681 0.65" quat="0.865807 0.436878 0.0222879 0.242939">
+            <geom name="right_fr3_link0_collision" type="mesh" group="1" mesh="link0"/>
+            <site name="right_center" pos="0 0 0" size="0.01" group="2" rgba="1 0.3 0.3 1"/>
+            <body name="right_fr3_link1" pos="0.330538 -0.298991 0.855555" quat="0.865807 0.436878 0.0222879 0.242939">
+              <inertial pos="4.128e-07 -0.0181251 -0.0386036" quat="0.998098 -0.0605364 0.00380499 0.0110109" mass="2.92747" diaginertia="0.0239286 0.0227246 0.00610634"/>
+              <joint name="right_fr3_joint1" pos="0 0 0" axis="0 0 1" range="-2.7437 2.7437" actuatorfrcrange="-87 87" damping="0.003" frictionloss="0.2"/>
+              <geom name="right_fr3_link1_collision" type="mesh" group="1" mesh="link1"/>
+              <body name="right_fr3_link2" quat="0.707107 -0.707107 0 0">
+                <inertial pos="0.00318289 -0.0743222 0.00881461" quat="0.502599 0.584437 -0.465998 0.434366" mass="2.93554" diaginertia="0.0629567 0.0411924 0.0246371"/>
+                <joint name="right_fr3_joint2" pos="0 0 0" axis="0 0 1" range="-1.7837 1.7837" actuatorfrcrange="-87 87" damping="0.003" frictionloss="0.2"/>
+                <geom name="right_fr3_link2_collision" type="mesh" group="1" mesh="link2"/>
+                <body name="right_fr3_link3" pos="0 -0.316 0" quat="0.707107 0.707107 0 0">
+                  <inertial pos="0.0407016 -0.00482006 -0.0289731" quat="0.921025 -0.244161 0.155272 0.260745" mass="2.2449" diaginertia="0.0267409 0.0189869 0.0171587"/>
+                  <joint name="right_fr3_joint3" pos="0 0 0" axis="0 0 1" range="-2.9007 2.9007" actuatorfrcrange="-87 87" damping="0.003" frictionloss="0.2"/>
+                  <geom name="right_fr3_link3_collision" type="mesh" group="1" mesh="link3"/>
+                  <body name="right_fr3_link4" pos="0.0825 0 0" quat="0.707107 0.707107 0 0">
+                    <inertial pos="-0.0459101 0.0630493 -0.00851879" quat="0.438018 0.803311 0.00937812 0.403414" mass="2.6156" diaginertia="0.05139 0.0372717 0.0160047"/>
+                    <joint name="right_fr3_joint4" pos="0 0 0" axis="0 0 1" range="-3.0421 -0.1518" actuatorfrcrange="-87 87" damping="0.003" frictionloss="0.2"/>
+                    <geom name="right_fr3_link4_collision" type="mesh" group="1" mesh="link4"/>
+                    <body name="right_fr3_link5" pos="-0.0825 0.384 0" quat="0.707107 -0.707107 0 0">
+                      <inertial pos="-0.00160396 0.0292536 -0.0972966" quat="0.919031 0.125604 0.0751531 -0.366003" mass="2.32712" diaginertia="0.0579335 0.0449144 0.0130634"/>
+                      <joint name="right_fr3_joint5" pos="0 0 0" axis="0 0 1" range="-2.8065 2.8065" actuatorfrcrange="-12 12" damping="0.003" frictionloss="0.2"/>
+                      <geom name="right_fr3_link5_collision" type="mesh" group="1" mesh="link5"/>
+                      <body name="right_fr3_link6" quat="0.707107 0.707107 0 0">
+                        <inertial pos="0.0597131 -0.0410295 -0.0101693" quat="0.621301 0.552665 0.510011 0.220081" mass="1.81704" diaginertia="0.0175039 0.0161123 0.00193529"/>
+                        <joint name="right_fr3_joint6" pos="0 0 0" axis="0 0 1" range="0.5445 4.5169" actuatorfrcrange="-12 12" damping="0.003" frictionloss="0.2"/>
+                        <geom name="right_fr3_link6_collision" type="mesh" group="1" mesh="link6"/>
+                        <body name="right_fr3_link7" pos="0.088 0 0" quat="0.707107 0.707107 0 0">
+                          <inertial pos="0.00452258 0.00862619 -0.0161633" quat="0.727579 0.0978688 -0.24906 0.63168" mass="0.627143" diaginertia="0.000223836 0.000223642 5.64132e-07"/>
+                          <joint name="right_fr3_joint7" pos="0 0 0" axis="0 0 1" range="-3.0159 3.0159" actuatorfrcrange="-12 12" damping="0.003" frictionloss="0.2"/>
+                          <geom name="right_fr3_link7_collision" type="mesh" group="1" mesh="link7"/>
+                          <body name="right_hand" pos="0 0 0.11355">
+                            <!-- <camera name="right_eye_in_hand" pos="-0.08 -0.1 -0.1" quat="0.7071068 0.7071068 0 0" fovy="75"/> -->
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+
+          <body name="left_fr3_link1" pos="0.330538 0.298991 0.855555" quat="0.865807 -0.436878 0.0222879 -0.242939">
+            <geom name="left_fr3_link0_collision" pos="0.247 0.050681 0.65" quat="0.865807 -0.436878 0.0222879 -0.242939" type="mesh" group="1" mesh="link0"/>
+            <site name="left_center" pos="0 0 0" size="0.01" group="2" rgba="1 0.3 0.3 1"/>
+            <body name="left_fr3_link1" pos="0.330538 0.298991 0.855555" quat="0.865807 -0.436878 0.0222879 -0.242939">
+              <inertial pos="4.128e-07 -0.0181251 -0.0386036" quat="0.998098 -0.0605364 0.00380499 0.0110109" mass="2.92747" diaginertia="0.0239286 0.0227246 0.00610634"/>
+              <joint name="left_fr3_joint1" pos="0 0 0" axis="0 0 1" range="-2.7437 2.7437" actuatorfrcrange="-87 87" damping="0.003" frictionloss="0.2"/>
+              <geom name="left_fr3_link1_collision" type="mesh" group="1" mesh="link1"/>
+              <body name="left_fr3_link2" quat="0.707107 -0.707107 0 0">
+                <inertial pos="0.00318289 -0.0743222 0.00881461" quat="0.502599 0.584437 -0.465998 0.434366" mass="2.93554" diaginertia="0.0629567 0.0411924 0.0246371"/>
+                <joint name="left_fr3_joint2" pos="0 0 0" axis="0 0 1" range="-1.7837 1.7837" actuatorfrcrange="-87 87" damping="0.003" frictionloss="0.2"/>
+                <geom name="left_fr3_link2_collision" type="mesh" group="1" mesh="link2"/>
+                <body name="left_fr3_link3" pos="0 -0.316 0" quat="0.707107 0.707107 0 0">
+                  <inertial pos="0.0407016 -0.00482006 -0.0289731" quat="0.921025 -0.244161 0.155272 0.260745" mass="2.2449" diaginertia="0.0267409 0.0189869 0.0171587"/>
+                  <joint name="left_fr3_joint3" pos="0 0 0" axis="0 0 1" range="-2.9007 2.9007" actuatorfrcrange="-87 87" damping="0.003" frictionloss="0.2"/>
+                  <geom name="left_fr3_link3_collision" type="mesh" group="1" mesh="link3"/>
+                  <body name="left_fr3_link4" pos="0.0825 0 0" quat="0.707107 0.707107 0 0">
+                    <inertial pos="-0.0459101 0.0630493 -0.00851879" quat="0.438018 0.803311 0.00937812 0.403414" mass="2.6156" diaginertia="0.05139 0.0372717 0.0160047"/>
+                    <joint name="left_fr3_joint4" pos="0 0 0" axis="0 0 1" range="-3.0421 -0.1518" actuatorfrcrange="-87 87" damping="0.003" frictionloss="0.2"/>
+                    <geom name="left_fr3_link4_collision" type="mesh" group="1" mesh="link4"/>
+                    <body name="left_fr3_link5" pos="-0.0825 0.384 0" quat="0.707107 -0.707107 0 0">
+                      <inertial pos="-0.00160396 0.0292536 -0.0972966" quat="0.919031 0.125604 0.0751531 -0.366003" mass="2.32712" diaginertia="0.0579335 0.0449144 0.0130634"/>
+                      <joint name="left_fr3_joint5" pos="0 0 0" axis="0 0 1" range="-2.8065 2.8065" actuatorfrcrange="-12 12" damping="0.003" frictionloss="0.2"/>
+                      <geom name="left_fr3_link5_collision" type="mesh" group="1" mesh="link5"/>
+                      <body name="left_fr3_link6" quat="0.707107 0.707107 0 0">
+                        <inertial pos="0.0597131 -0.0410295 -0.0101693" quat="0.621301 0.552665 0.510011 0.220081" mass="1.81704" diaginertia="0.0175039 0.0161123 0.00193529"/>
+                        <joint name="left_fr3_joint6" pos="0 0 0" axis="0 0 1" range="0.5445 4.5169" actuatorfrcrange="-12 12" damping="0.003" frictionloss="0.2"/>
+                        <geom name="left_fr3_link6_collision" type="mesh" group="1" mesh="link6"/>
+                        <body name="left_fr3_link7" pos="0.088 0 0" quat="0.707107 0.707107 0 0">
+                          <inertial pos="0.00452258 0.00862619 -0.0161633" quat="0.727579 0.0978688 -0.24906 0.63168" mass="0.627143" diaginertia="0.000223836 0.000223642 5.64132e-07"/>
+                          <joint name="left_fr3_joint7" pos="0 0 0" axis="0 0 1" range="-3.0159 3.0159" actuatorfrcrange="-12 12" damping="0.003" frictionloss="0.2"/>
+                          <geom name="left_fr3_link7_collision" type="mesh" group="1" mesh="link7"/>
+                          <body name="left_hand" pos="0 0 0.11355">
+                            <!-- <camera name="left_eye_in_hand" pos="0.05 0 0" quat="0 0.707107 0.707107 0" fovy="75"/> -->
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+          <!-- </body> -->
+          <!-- <body name="right_arm_mount" pos="0.035 0.050681 0.356" quat="0.865807 0.436878 0.0222879 0.242939"> -->
+          <!-- </body> -->
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <motor ctrllimited="true" ctrlrange="-50 50" joint="right_fr3_joint1" name="torq_right_j0"/>
+    <motor ctrllimited="true" ctrlrange="-100 100" joint="right_fr3_joint2" name="torq_right_j1"/>
+    <motor ctrllimited="true" ctrlrange="-50 50" joint="right_fr3_joint3" name="torq_right_j2"/>
+    <motor ctrllimited="true" ctrlrange="-50 50" joint="right_fr3_joint4" name="torq_right_j3"/>
+    <motor ctrllimited="true" ctrlrange="-15 15" joint="right_fr3_joint5" name="torq_right_j4"/>
+    <motor ctrllimited="true" ctrlrange="-15 15" joint="right_fr3_joint5" name="torq_right_j5"/>
+    <motor ctrllimited="true" ctrlrange="-15 15" joint="right_fr3_joint7" name="torq_right_j6"/>
+    <motor ctrllimited="true" ctrlrange="-50 50" joint="left_fr3_joint1" name="torq_left_j0"/>
+    <motor ctrllimited="true" ctrlrange="-100 100" joint="left_fr3_joint2" name="torq_left_j1"/>
+    <motor ctrllimited="true" ctrlrange="-50 50" joint="left_fr3_joint3" name="torq_left_j2"/>
+    <motor ctrllimited="true" ctrlrange="-50 50" joint="left_fr3_joint4" name="torq_left_j3"/>
+    <motor ctrllimited="true" ctrlrange="-15 15" joint="left_fr3_joint5" name="torq_left_j4"/>
+    <motor ctrllimited="true" ctrlrange="-15 15" joint="left_fr3_joint6" name="torq_left_j5"/>
+    <motor ctrllimited="true" ctrlrange="-15 15" joint="left_fr3_joint7" name="torq_left_j6"/>
+  </actuator>
+</mujoco>

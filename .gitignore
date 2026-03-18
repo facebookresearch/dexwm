@@ -1,0 +1,184 @@
+__pycache__
+.vscode
+debug
+debug2
+checkpoints
+split_indices.npz
+split_indices_egodex.json
+experiments
+wandb/*
+temp/*
+warnings.log
+demos/
+debug3/
+debug4/
+models/checkpoints/
+models/clip_vitb16_pretrain.pth.tar
+models/dino_vitb16_pretrain.pth
+models/ensemble_lora/
+models/facebookresearch_dino_main/
+models/facebookresearch_dinov2_main/
+models/open_clip_vitb16_pretrain.pth.tar
+models/pretrained.zip
+models/trusted_list
+metric_comp_examples/
+models_to_transfer/
+utils/misc_utils.py
+srun_script.sh
+
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# pipenv
+# (optional) Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# Pyre
+.pyre/
+
+# PyCharm
+.idea/
+
+# Mac OS
+.DS_Store
+__MACOSX/
+
+# Mujoco keys and temp files
+robot_sim_dexwm/mjkey.txt
+robot_sim_dexwm/.mujocomanip_temp_model.xml
+robot_sim_dexwm/MUJOCO_LOG.TXT
+
+# Misc
+robot_sim_dexwm/expdata/
+
+# Robocasa assets and textures (adjust paths as needed)
+robot_sim_dexwm/v-hacd
+robot_sim_dexwm/obocasa-murp/robocasa/models/assets/__MACOSX
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/aigen_objs
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/objaverse
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/demonstrations_private
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/model_zoo_assets
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/objects
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/objects_min
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/fixtures
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/textures
+robot_sim_dexwm/robocasa-murp/robocasa/models/assets/generative_textures
+
+#Robosuite
+# mujoco files
+robot_sim_dexwm/mjkey.txt
+robot_sim_dexwm/robosuite_murp/MUJOCO_LOG.TXT
+
+robot_sim_dexwm/.mujocomanip_temp_model.xml
+
+robot_sim_dexwm/*.jpg
+robot_sim_dexwm/.idea
+
+robot_sim_dexwm/.pytest_cache/
+
+# private macros
+robot_sim_dexwm/robosuite_murp/macros_private.py
+
+robot_sim_dexwm/robosuite_murp/robosuite_usd/
+
+robot_sim_dexwm/robosuite_murp/MUJOCO_LOG.TXT
+
+# private demonstration files
+robot_sim_dexwm/robosuite_murp/robosuite/models/assets/demonstrations_private

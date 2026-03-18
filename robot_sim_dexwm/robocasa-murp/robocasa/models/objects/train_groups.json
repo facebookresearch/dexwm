@@ -1,0 +1,856 @@
+{
+    "all": [
+        "liquor",
+        "avocado",
+        "bagel",
+        "bagged_food",
+        "baguette",
+        "beer",
+        "bell_pepper",
+        "bottled_drink",
+        "bottled_water",
+        "bowl",
+        "boxed_drink",
+        "boxed_food",
+        "bread",
+        "broccoli",
+        "cake",
+        "candle",
+        "canned_food",
+        "cheese",
+        "chips",
+        "corn",
+        "croissant",
+        "cucumber",
+        "cup",
+        "cupcake",
+        "cutting_board",
+        "egg",
+        "eggplant",
+        "fish",
+        "fork",
+        "hot_dog",
+        "jam",
+        "jug",
+        "ketchup",
+        "kettle_electric",
+        "kettle_non_electric",
+        "kiwi",
+        "knife",
+        "ladle",
+        "lime",
+        "mango",
+        "milk",
+        "mug",
+        "pan",
+        "peach",
+        "pear",
+        "potato",
+        "rolling_pin",
+        "scissors",
+        "shaker",
+        "soap_dispenser",
+        "spatula",
+        "sponge",
+        "squash",
+        "steak",
+        "sweet_potato",
+        "tangerine",
+        "teapot",
+        "tomato",
+        "tray",
+        "waffle",
+        "water_bottle",
+        "wine",
+        "yogurt",
+        "dates",
+        "lemonade",
+        "walnut",
+        "cheese_grater",
+        "scallops",
+        "candy",
+        "whisk",
+        "pitcher",
+        "ice_cream",
+        "cherry",
+        "peanut_butter",
+        "thermos",
+        "ham",
+        "cabbage",
+        "lettuce",
+        "tongs",
+        "ginger",
+        "ice_cube_tray",
+        "shrimp",
+        "cantaloupe",
+        "honey_bottle",
+        "grapes",
+        "celery",
+        "burrito",
+        "olive_oil_bottle",
+        "kebabs",
+        "bottle_opener",
+        "jello_cup",
+        "lobster",
+        "brussel_sprout",
+        "sushi",
+        "baking_sheet",
+        "wine_glass",
+        "asparagus",
+        "pickle",
+        "bacon",
+        "canola_oil",
+        "strawberry",
+        "watermelon",
+        "pizza_cutter",
+        "apricot",
+        "beet",
+        "radish",
+        "salsa",
+        "artichoke",
+        "scone",
+        "hamburger",
+        "raspberry",
+        "tacos",
+        "zucchini",
+        "pork_loin",
+        "pork_chop",
+        "coconut",
+        "cauliflower",
+        "lollipop",
+        "butter_stick",
+        "can_opener",
+        "tofu",
+        "skewers"
+    ],
+    "liquor": [
+        "liquor"
+    ],
+    "apple": [],
+    "avocado": [
+        "avocado"
+    ],
+    "bagel": [
+        "bagel"
+    ],
+    "bagged_food": [
+        "bagged_food"
+    ],
+    "baguette": [
+        "baguette"
+    ],
+    "banana": [],
+    "bar": [],
+    "bar_soap": [],
+    "beer": [
+        "beer"
+    ],
+    "bell_pepper": [
+        "bell_pepper"
+    ],
+    "bottled_drink": [
+        "bottled_drink"
+    ],
+    "bottled_water": [
+        "bottled_water"
+    ],
+    "bowl": [
+        "bowl"
+    ],
+    "boxed_drink": [
+        "boxed_drink"
+    ],
+    "boxed_food": [
+        "boxed_food"
+    ],
+    "bread": [
+        "bread"
+    ],
+    "broccoli": [
+        "broccoli"
+    ],
+    "cake": [
+        "cake"
+    ],
+    "can": [],
+    "candle": [
+        "candle"
+    ],
+    "canned_food": [
+        "canned_food"
+    ],
+    "carrot": [],
+    "cereal": [],
+    "cheese": [
+        "cheese"
+    ],
+    "chips": [
+        "chips"
+    ],
+    "chocolate": [],
+    "coffee_cup": [],
+    "condiment_bottle": [],
+    "corn": [
+        "corn"
+    ],
+    "croissant": [
+        "croissant"
+    ],
+    "cucumber": [
+        "cucumber"
+    ],
+    "cup": [
+        "cup"
+    ],
+    "cupcake": [
+        "cupcake"
+    ],
+    "cutting_board": [
+        "cutting_board"
+    ],
+    "donut": [],
+    "egg": [
+        "egg"
+    ],
+    "eggplant": [
+        "eggplant"
+    ],
+    "fish": [
+        "fish"
+    ],
+    "fork": [
+        "fork"
+    ],
+    "garlic": [],
+    "hot_dog": [
+        "hot_dog"
+    ],
+    "jam": [
+        "jam"
+    ],
+    "jug": [
+        "jug"
+    ],
+    "ketchup": [
+        "ketchup"
+    ],
+    "kettle_electric": [
+        "kettle_electric"
+    ],
+    "kettle_non_electric": [
+        "kettle_non_electric"
+    ],
+    "kiwi": [
+        "kiwi"
+    ],
+    "knife": [
+        "knife"
+    ],
+    "ladle": [
+        "ladle"
+    ],
+    "lemon": [],
+    "lime": [
+        "lime"
+    ],
+    "mango": [
+        "mango"
+    ],
+    "milk": [
+        "milk"
+    ],
+    "mug": [
+        "mug"
+    ],
+    "mushroom": [],
+    "onion": [],
+    "orange": [],
+    "pan": [
+        "pan"
+    ],
+    "pot": [],
+    "peach": [
+        "peach"
+    ],
+    "pear": [
+        "pear"
+    ],
+    "plate": [],
+    "potato": [
+        "potato"
+    ],
+    "rolling_pin": [
+        "rolling_pin"
+    ],
+    "scissors": [
+        "scissors"
+    ],
+    "shaker": [
+        "shaker"
+    ],
+    "soap_dispenser": [
+        "soap_dispenser"
+    ],
+    "spatula": [
+        "spatula"
+    ],
+    "sponge": [
+        "sponge"
+    ],
+    "spoon": [],
+    "spray": [],
+    "squash": [
+        "squash"
+    ],
+    "steak": [
+        "steak"
+    ],
+    "sweet_potato": [
+        "sweet_potato"
+    ],
+    "tangerine": [
+        "tangerine"
+    ],
+    "teapot": [
+        "teapot"
+    ],
+    "tomato": [
+        "tomato"
+    ],
+    "tray": [
+        "tray"
+    ],
+    "waffle": [
+        "waffle"
+    ],
+    "water_bottle": [
+        "water_bottle"
+    ],
+    "wine": [
+        "wine"
+    ],
+    "yogurt": [
+        "yogurt"
+    ],
+    "dates": [
+        "dates"
+    ],
+    "lemonade": [
+        "lemonade"
+    ],
+    "walnut": [
+        "walnut"
+    ],
+    "cheese_grater": [
+        "cheese_grater"
+    ],
+    "syrup_bottle": [],
+    "scallops": [
+        "scallops"
+    ],
+    "candy": [
+        "candy"
+    ],
+    "whisk": [
+        "whisk"
+    ],
+    "pitcher": [
+        "pitcher"
+    ],
+    "ice_cream": [
+        "ice_cream"
+    ],
+    "cherry": [
+        "cherry"
+    ],
+    "peanut_butter": [
+        "peanut_butter"
+    ],
+    "thermos": [
+        "thermos"
+    ],
+    "ham": [
+        "ham"
+    ],
+    "dumpling": [],
+    "cabbage": [
+        "cabbage"
+    ],
+    "lettuce": [
+        "lettuce"
+    ],
+    "tongs": [
+        "tongs"
+    ],
+    "ginger": [
+        "ginger"
+    ],
+    "ice_cube_tray": [
+        "ice_cube_tray"
+    ],
+    "shrimp": [
+        "shrimp"
+    ],
+    "cantaloupe": [
+        "cantaloupe"
+    ],
+    "honey_bottle": [
+        "honey_bottle"
+    ],
+    "grapes": [
+        "grapes"
+    ],
+    "spaghetti_box": [],
+    "chili_pepper": [],
+    "celery": [
+        "celery"
+    ],
+    "burrito": [
+        "burrito"
+    ],
+    "olive_oil_bottle": [
+        "olive_oil_bottle"
+    ],
+    "kebabs": [
+        "kebabs"
+    ],
+    "bottle_opener": [
+        "bottle_opener"
+    ],
+    "chicken_breast": [],
+    "jello_cup": [
+        "jello_cup"
+    ],
+    "lobster": [
+        "lobster"
+    ],
+    "brussel_sprout": [
+        "brussel_sprout"
+    ],
+    "sushi": [
+        "sushi"
+    ],
+    "baking_sheet": [
+        "baking_sheet"
+    ],
+    "wine_glass": [
+        "wine_glass"
+    ],
+    "asparagus": [
+        "asparagus"
+    ],
+    "lamb_chop": [],
+    "pickle": [
+        "pickle"
+    ],
+    "bacon": [
+        "bacon"
+    ],
+    "canola_oil": [
+        "canola_oil"
+    ],
+    "strawberry": [
+        "strawberry"
+    ],
+    "watermelon": [
+        "watermelon"
+    ],
+    "pizza_cutter": [
+        "pizza_cutter"
+    ],
+    "pomegranate": [],
+    "apricot": [
+        "apricot"
+    ],
+    "beet": [
+        "beet"
+    ],
+    "radish": [
+        "radish"
+    ],
+    "salsa": [
+        "salsa"
+    ],
+    "artichoke": [
+        "artichoke"
+    ],
+    "scone": [
+        "scone"
+    ],
+    "hamburger": [
+        "hamburger"
+    ],
+    "raspberry": [
+        "raspberry"
+    ],
+    "tacos": [
+        "tacos"
+    ],
+    "vinegar": [],
+    "zucchini": [
+        "zucchini"
+    ],
+    "pork_loin": [
+        "pork_loin"
+    ],
+    "pork_chop": [
+        "pork_chop"
+    ],
+    "sausage": [],
+    "coconut": [
+        "coconut"
+    ],
+    "cauliflower": [
+        "cauliflower"
+    ],
+    "lollipop": [
+        "lollipop"
+    ],
+    "salami": [],
+    "butter_stick": [
+        "butter_stick"
+    ],
+    "can_opener": [
+        "can_opener"
+    ],
+    "tofu": [
+        "tofu"
+    ],
+    "pineapple": [],
+    "skewers": [
+        "skewers"
+    ],
+    "packaged_food": [
+        "bagged_food",
+        "boxed_food",
+        "canned_food",
+        "chips",
+        "jam",
+        "yogurt",
+        "peanut_butter",
+        "honey_bottle",
+        "olive_oil_bottle",
+        "jello_cup",
+        "canola_oil",
+        "salsa"
+    ],
+    "dairy": [
+        "cheese",
+        "egg",
+        "milk",
+        "yogurt",
+        "butter_stick"
+    ],
+    "receptacle": [
+        "bowl",
+        "cup",
+        "cutting_board",
+        "jug",
+        "kettle_electric",
+        "kettle_non_electric",
+        "mug",
+        "pan",
+        "teapot",
+        "tray",
+        "pitcher",
+        "ice_cube_tray",
+        "baking_sheet",
+        "wine_glass"
+    ],
+    "stackable": [
+        "bowl",
+        "cup",
+        "mug"
+    ],
+    "sweets": [
+        "cake",
+        "cupcake",
+        "waffle",
+        "candy",
+        "ice_cream",
+        "lollipop"
+    ],
+    "utensil": [
+        "fork",
+        "knife",
+        "ladle",
+        "spatula",
+        "whisk"
+    ],
+    "drink": [
+        "liquor",
+        "beer",
+        "bottled_drink",
+        "bottled_water",
+        "boxed_drink",
+        "milk",
+        "water_bottle",
+        "wine",
+        "lemonade",
+        "thermos"
+    ],
+    "alcohol": [
+        "liquor",
+        "beer",
+        "wine"
+    ],
+    "tool": [
+        "rolling_pin",
+        "scissors",
+        "cheese_grater",
+        "tongs",
+        "bottle_opener",
+        "pizza_cutter",
+        "can_opener"
+    ],
+    "bread_food": [
+        "bagel",
+        "baguette",
+        "bread",
+        "scone"
+    ],
+    "cooked_food": [
+        "hot_dog",
+        "burrito",
+        "kebabs",
+        "hamburger",
+        "tacos",
+        "skewers"
+    ],
+    "cleaner": [
+        "soap_dispenser",
+        "sponge"
+    ],
+    "fruit": [
+        "kiwi",
+        "mango",
+        "peach",
+        "pear",
+        "tangerine",
+        "dates",
+        "cherry",
+        "cantaloupe",
+        "grapes",
+        "strawberry",
+        "watermelon",
+        "apricot",
+        "raspberry",
+        "coconut"
+    ],
+    "pastry": [
+        "croissant",
+        "scone"
+    ],
+    "meat": [
+        "fish",
+        "steak",
+        "scallops",
+        "ham",
+        "shrimp",
+        "lobster",
+        "sushi",
+        "bacon",
+        "pork_loin",
+        "pork_chop",
+        "skewers"
+    ],
+    "vegetable": [
+        "avocado",
+        "bell_pepper",
+        "broccoli",
+        "corn",
+        "cucumber",
+        "eggplant",
+        "lime",
+        "potato",
+        "squash",
+        "sweet_potato",
+        "tomato",
+        "cabbage",
+        "lettuce",
+        "ginger",
+        "celery",
+        "brussel_sprout",
+        "asparagus",
+        "pickle",
+        "beet",
+        "radish",
+        "artichoke",
+        "zucchini",
+        "cauliflower"
+    ],
+    "decoration": [
+        "candle"
+    ],
+    "condiment": [
+        "ketchup",
+        "shaker"
+    ],
+    "food": [
+        "avocado",
+        "bagel",
+        "baguette",
+        "bell_pepper",
+        "bread",
+        "broccoli",
+        "cake",
+        "cheese",
+        "corn",
+        "croissant",
+        "cucumber",
+        "cupcake",
+        "egg",
+        "eggplant",
+        "fish",
+        "hot_dog",
+        "kiwi",
+        "lime",
+        "mango",
+        "milk",
+        "peach",
+        "pear",
+        "potato",
+        "squash",
+        "steak",
+        "sweet_potato",
+        "tangerine",
+        "tomato",
+        "waffle",
+        "yogurt",
+        "dates",
+        "scallops",
+        "candy",
+        "ice_cream",
+        "cherry",
+        "ham",
+        "cabbage",
+        "lettuce",
+        "ginger",
+        "shrimp",
+        "cantaloupe",
+        "grapes",
+        "celery",
+        "burrito",
+        "kebabs",
+        "lobster",
+        "brussel_sprout",
+        "sushi",
+        "asparagus",
+        "pickle",
+        "bacon",
+        "strawberry",
+        "watermelon",
+        "apricot",
+        "beet",
+        "radish",
+        "artichoke",
+        "scone",
+        "hamburger",
+        "raspberry",
+        "tacos",
+        "zucchini",
+        "pork_loin",
+        "pork_chop",
+        "coconut",
+        "cauliflower",
+        "lollipop",
+        "butter_stick",
+        "skewers"
+    ],
+    "in_container": [
+        "avocado",
+        "bagel",
+        "baguette",
+        "bell_pepper",
+        "bread",
+        "broccoli",
+        "cake",
+        "cheese",
+        "corn",
+        "croissant",
+        "cucumber",
+        "cupcake",
+        "egg",
+        "eggplant",
+        "fish",
+        "hot_dog",
+        "kiwi",
+        "lime",
+        "mango",
+        "milk",
+        "peach",
+        "pear",
+        "potato",
+        "squash",
+        "steak",
+        "sweet_potato",
+        "tangerine",
+        "tomato",
+        "waffle",
+        "yogurt",
+        "dates",
+        "scallops",
+        "candy",
+        "ice_cream",
+        "cherry",
+        "ham",
+        "cabbage",
+        "lettuce",
+        "ginger",
+        "shrimp",
+        "cantaloupe",
+        "grapes",
+        "celery",
+        "burrito",
+        "kebabs",
+        "lobster",
+        "brussel_sprout",
+        "sushi",
+        "asparagus",
+        "pickle",
+        "bacon",
+        "strawberry",
+        "watermelon",
+        "apricot",
+        "beet",
+        "radish",
+        "artichoke",
+        "scone",
+        "hamburger",
+        "raspberry",
+        "tacos",
+        "zucchini",
+        "pork_loin",
+        "pork_chop",
+        "coconut",
+        "cauliflower",
+        "lollipop",
+        "butter_stick",
+        "skewers"
+    ],
+    "container": [],
+    "kettle": [
+        "kettle_electric",
+        "kettle_non_electric"
+    ],
+    "cookware": [
+        "pan",
+        "kettle_non_electric"
+    ],
+    "pots_and_pans": [
+        "pan"
+    ],
+    "food_set1": [
+        "baguette",
+        "cheese",
+        "cucumber",
+        "egg",
+        "potato"
+    ],
+    "group1": [
+        "bowl"
+    ],
+    "container_set2": [
+        "bowl"
+    ]
+}

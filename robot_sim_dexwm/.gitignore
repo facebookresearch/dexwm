@@ -1,0 +1,175 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.npy
+*.hdf5
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+# (optional) Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# dotenv
+.env
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# PyCharm
+.idea/
+
+# Mac OS
+.DS_Store
+__MACOSX/
+
+# Media and models (adjust paths to your project)
+*.jpg
+*.mp4
+*.pth
+
+# Mujoco keys and temp files
+mjkey.txt
+.mujocomanip_temp_model.xml
+MUJOCO_LOG.TXT
+
+# Misc
+expdata/
+
+# Robocasa assets and textures (adjust paths as needed)
+v-hacd
+robocasa-murp/robocasa/models/assets/__MACOSX
+robocasa-murp/robocasa/models/assets/aigen_objs
+robocasa-murp/robocasa/models/assets/objaverse
+robocasa-murp/robocasa/models/assets/demonstrations_private
+robocasa-murp/robocasa/models/assets/model_zoo_assets
+robocasa-murp/robocasa/models/assets/objects
+robocasa-murp/robocasa/models/assets/objects_min
+robocasa-murp/robocasa/models/assets/fixtures
+robocasa-murp/robocasa/models/assets/textures
+robocasa-murp/robocasa/models/assets/generative_textures
+
+#Robosuite
+# mujoco files
+mjkey.txt
+robosuite_murp/MUJOCO_LOG.TXT
+
+.mujocomanip_temp_model.xml
+
+*.jpg
+.idea
+
+.pytest_cache/
+
+# private macros
+robosuite_murp/macros_private.py
+
+robosuite_murp/robosuite_usd/
+
+robosuite_murp/MUJOCO_LOG.TXT
+
+# private demonstration files
+robosuite_murp/robosuite/models/assets/demonstrations_private
