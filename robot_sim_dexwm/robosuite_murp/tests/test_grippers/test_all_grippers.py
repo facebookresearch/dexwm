@@ -1,11 +1,10 @@
-"""
-Tests the basic interface of all grippers.
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
 
-This runs some basic sanity checks on the environment, namely, checking that:
-    - Verifies that the gripper's action, init_qpos exist and are valid
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
 
-Obviously, if an environment crashes during runtime, that is considered a failure as well.
-"""
 
 from robosuite.models.grippers import GRIPPER_MAPPING
 

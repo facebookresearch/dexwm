@@ -1,11 +1,10 @@
-"""
-Macro settings that can be imported and toggled. Internally, specific parts of the codebase rely on these settings
-for determining core functionality.
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
 
-To make sure global reference is maintained, should import these settings as:
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
 
-`import robosuite.macros as macros`
-"""
 
 # Global Mujoco Simulation Parameters
 SIMULATION_TIMESTEP = 0.002  # Internal simulation timestep (in seconds)

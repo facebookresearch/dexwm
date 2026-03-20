@@ -1,10 +1,11 @@
-"""
-This file implements a wrapper for visualizing important sites in a given environment.
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
 
-By default, this visualizes all sites possible for the environment. Visualization options
-for a given environment can be found by calling `get_visualization_settings()`, and can
-be set individually by calling `set_visualization_setting(setting, visible)`.
-"""
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
+
+
 import xml.etree.ElementTree as ET
 from copy import deepcopy
 

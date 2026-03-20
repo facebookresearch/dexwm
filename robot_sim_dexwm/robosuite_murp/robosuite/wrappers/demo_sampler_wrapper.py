@@ -1,9 +1,10 @@
-"""
-This file contains a wrapper for sampling environment states
-from a set of demonstrations on every reset. The main use case is for 
-altering the start state distribution of training episodes for 
-learning RL policies.
-"""
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
+
 
 import os
 import random

@@ -1,9 +1,11 @@
-"""
-Test script for camera transforms. This test will read the ground-truth 
-object state in the Lift environment, transform it into a pixel location
-in the camera frame, then transform it back to the world frame, and assert
-that the values are close.
-"""
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
+
+
 import random
 
 import numpy as np

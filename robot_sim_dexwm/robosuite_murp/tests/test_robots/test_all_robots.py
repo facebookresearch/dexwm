@@ -1,11 +1,10 @@
-"""
-Tests the basic interface of all robots.
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
 
-This runs some basic sanity checks on the robots, namely, checking that:
-    - Verifies that all single-arm robots have properly defined contact geoms.
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
 
-Obviously, if an environment crashes during runtime, that is considered a failure as well.
-"""
 from robosuite.robots import ROBOT_CLASS_MAPPING, FixedBaseRobot, LeggedRobot, WheeledRobot
 
 

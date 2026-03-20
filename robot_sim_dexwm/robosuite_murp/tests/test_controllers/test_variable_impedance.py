@@ -1,28 +1,9 @@
-"""
-Test the variable impedance feature of impedance-based controllers (OSC, Joint Position) on the Lift task with
-Sawyer arm environment as a test case.
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
 
-The variable impedance feature allows per-action fine-grained control over the specific impedance gains when executing
-impedance control (namely, "kp" and "damping" ratios). This allows a given controller to execute more complex and
-potentially interactive trajectories by varying the net impedance of the controlled actuators over time.
-
-This (qualitative) test verifies that the variable impedance works correctly on both the OSC Pose / Position and
-Joint Position controllers, and proceeds as follows:
-
-    1. Given a constant delta position action, and with the the kp values set to critically-damped, we will ramp up
-        the kp values to its max and then ramp down the values. We qualitatively expect the arm to accelerate as the kp
-        values are ramped, and then slow down as they are decreased.
-
-    2. The environment will then be reset. Given a constant delta position action, and with kp values set to its
-        default value, we will ramp up the damping values to its max and then ramp down the values. We qualitatively
-        expect the arm to slow down as the damping values are ramped, and then increase in speed as they are decreased.
-
-    3. We will repeat Step 1 and 2 for each of the tested controllers.
-
-Periodic prijntouts should verify the above patterns; conversely, running the script with the "--render" argument will
-render the trajectories to allow for visual analysis of gains
-"""
-
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
 import argparse
 
 import numpy as np

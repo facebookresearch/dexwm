@@ -1,8 +1,11 @@
-"""
-Script to test composite robots:
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
 
-$ pytest -s tests/test_robots/test_composite_robots.py
-"""
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
+
+
 import logging
 from typing import Dict, List, Union
 

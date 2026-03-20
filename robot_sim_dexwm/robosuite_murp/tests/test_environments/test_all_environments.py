@@ -1,13 +1,10 @@
-"""
-Test all environments with random policies.
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
 
-This runs some basic sanity checks on the environment, namely, checking that:
-    - proprio-state exists in the obs, and is a flat array
-    - agentview_image exists and is of the correct shape
-    - no object-obs in state, because we are only using image observations
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
 
-Obviously, if an environment crashes during runtime, that is considered a failure as well.
-"""
 import numpy as np
 
 import robosuite as suite

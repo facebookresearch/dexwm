@@ -1,4 +1,11 @@
-# adapted from https://github.com/lucidrains/vit-pytorch/blob/main/vit_pytorch/vit.py
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
+
+
 import torch
 from torch import nn
 from einops import rearrange, repeat

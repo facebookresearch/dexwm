@@ -53,10 +53,11 @@ This repo is a supporting simulation software for [DexWM]() and is used for data
 ### DexWM:
 ```bibtex
 @article{goswami2025world,
-  title={World Models Can Leverage Human Videos for Dexterous Manipulation},
+  title={World Models for Learning Dexterous Hand-Object Interactions from Human Videos},
   author={Goswami, Raktim Gautam and Bar, Amir and Fan, David and Yang, Tsung-Yen and Zhou, Gaoyue and Krishnamurthy, Prashanth and Rabbat, Michael and Khorrami, Farshad and LeCun, Yann},
   journal={arXiv preprint arXiv:2512.13644},
-  year={2025}
+  year={2026}
+}
 }
 ```
 

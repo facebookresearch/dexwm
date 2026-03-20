@@ -1,25 +1,9 @@
-"""
-Test the linear interpolator on the Lift task with Sawyer arm environment as a test case.
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
 
-The linear interpolator is meant to increase the stability and overall safety of a robot arm's trajectory when reaching
-a setpoint, "ramping up" the actual action command sent to a given controller from zero to the actual inputted action
-over a fraction of the timesteps in betwteen each high-level input action (the "ramp ratio"). As a result, the
-resulting trajectory should be smoother, proportional to the interpolator's ramp ratio setting.
-
-This test verifies that the linear interpolator works correctly on both the IK and OSC controller for both position and
-orientation, and proceeds as follows:
-
-    1. Given a constant delta position action, and with the interpolator disabled, we will measure the sum of absolute
-        changes in joint torques between individual simulation timesteps
-
-    2. We will repeat Step 1, but this time with the interpolator enabled and with a ramp ratio of 1.0 (max value)
-
-    3. We expect the interpolated trajectories to experience a smaller overall magnitude of changes in torques, due to
-        the setpoints between controller timesteps being smoothed out over the ramp ratio.
-
-Note: As this is a qualitative test, it is up to the user to evaluate the output and determine the expected behavior of
-the tested controllers.
-"""
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+# --------------------------------------------------------
 
 import argparse
 import json
