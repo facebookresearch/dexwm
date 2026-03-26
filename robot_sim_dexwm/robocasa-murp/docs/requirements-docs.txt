@@ -35,7 +35,7 @@ PyYAML==6.0.1
 pyzmq==26.0.3
 recommonmark==0.7.1
 referencing==0.35.1
-requests==2.32.3
+requests==2.33.0
 rpds-py==0.18.1
 six==1.16.0
 snowballstemmer==2.2.0
