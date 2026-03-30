@@ -29,7 +29,7 @@ packaging==24.1
 pandocfilters==1.5.1
 platformdirs==4.2.2
 pydata-sphinx-theme==0.8.1
-Pygments==2.18.0
+Pygments==2.20.0
 python-dateutil==2.9.0.post0
 PyYAML==6.0.1
 pyzmq==26.0.3
