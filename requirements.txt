@@ -71,7 +71,7 @@ transformers==4.56.2
 triton==3.3.1
 typing_extensions==4.14.1
 urllib3==2.5.0
-uv==0.8.8
+uv==0.11.6
 wandb==0.21.1
 wheel==0.45.1
 xformers==0.0.31.post1
