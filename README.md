@@ -76,7 +76,7 @@ On the first training run, the code generates `split_indices_robocasa_random.jso
 1. **Set the model checkpoint:**
    Edit `test_scripts/test_script.sh` and update the model checkpoint path to the checkpoint you want to evaluate.
 2. **Download the keypoint model:**
-   Evaluation also uses a separately trained **keypoint model** to predict keypoints from the world model’s predicted latent states. Download this model from the checkpoint download page and configure its path in `test_scripts/test_script.sh` as well.
+   Evaluation also uses a separately trained **keypoint model** to predict keypoints from the world model’s predicted latent states. This uses the same architecture as the `HeatmapModel` in `models/model.py`. You should first train this model separately before evaluation.
 3. **(Optional) Visualization:**
    The test script can visualize predicted states. To enable this, you must train a decoder and configure the decoder path/settings in the code.
 #### Run evaluation
